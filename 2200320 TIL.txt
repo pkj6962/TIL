@@ -1,0 +1,61 @@
+
+시스템 프로그래밍 
+
+What is Page Fault? 
+
+메인 메모리에 요청한 데이터가 없어서 생기는 동기적 예외 처리 흐름.  디스크로부터 메모리로 필요한 데이터를 fetch함. 
+(https://www.studytonight.com/operating-system/page-fault-in-operating-system)
+
+
+
+
+difference between segmentation fault and page fault
+
+Segmentation Fault는 invalid한 메모리 주소에 접근해서 발생한 '오류'이고, page fault는 지금 접근한 virtual memory 상 주소가 physical memory에 mapping되지 않아서 발생하는 문제
+(https://stackoverflow.com/questions/6950549/segmentation-fault-vs-page-fault)
+
+
+
+Difference between sync and async processing
+
+주문을 넣었을 때, sync는 다른 일을 하지 않고 기다리는 것이고, async는 다른 일을 하면서 기다리는 것이다. 
+(https://www.koyeb.com/blog/introduction-to-synchronous-and-asynchronous-processing)
+
+
+
+
+Are interrupts synchronous or asynchronous?
+
+:인터럽트는 비동기적 예외처리. 
+동기: 프로세스 외부 이벤트(타이머/IO interrupt) 로 인해 발생하는 예외 
+비동기 예외: 프로세스 내부 instruction에 의해 발생
+(https://math.hws.edu/javanotes/c1/s2.html)
+
+
+
+
+
+
+프로그래밍 언어
+
+How much memory can a 64bit machine address at a time?
+
+이론적으로 64비트 머신은 2^64의 주소를 매핑할 수 있지만, 실제로는 이중 48비트 주소만을 사용하게 설계되었다. 
+2^48 = 281,474,976,710,656: 
+(https://superuser.com/questions/168114/how-much-memory-can-a-64bit-machine-address-at-a-time)
+
+
+
+
+1million integers 를 어떻게 sort하는가?
+(https://www.quora.com/If-you-are-having-a-list-of-1-million-records-how-you-will-sort-the-records)
+
+
+
+
+C++ 예외처리기법: try... catch
+
+C++는 예외처리기법이 지원되는 reliable한 언어이다. 
+(https://blog.hexabrain.net/179)
+
+
