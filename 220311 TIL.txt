@@ -1,0 +1,31 @@
+https://www.themuse.com/advice/4-ways-to-answer-whats-your-biggest-weakness-that-actually-sound-believable
+(https://www.themuse.com/advice/dear-job-seekers-stop-apologizing-for-the-experience-you-dont-have)
+https://www.themuse.com/advice/4-ways-to-handle-interview-questions-you-dont-know-how-to-answer
+
+
+
+Why does it take more time to access hard disk compared to ram?
+하드디스크는 address에 arm을 이용해서 기계적으로 접근하지만, 램은 전기를 이용해서 접근한다. 
+SSD는 낸드기술을 이용한 것이라 하드디스크와 다르지만, 그래도 램과의 시간차가 있다 .
+
+(https://www.quora.com/Why-does-it-take-more-time-to-access-hard-disk-compared-to-ram)
+
+
+Are instruction set and assembly language the same thing?
+ISA는 명령어 set{add, mov, ...} 이다. Assembly Language는 ISA상 명령어들을 조합해서 프로그램을 만들 수 있는 언어다. 
+
+https://stackoverflow.com/questions/5382130/are-instruction-set-and-assembly-language-the-same-thing
+
+
+
+To figure out next
+
+difference between user cpu time and system cpu time 
+why there is trade off on clock cycle time and clock rate
+what is instruction-level parallelism
+
+
+unit of amplitude
+Is 5GHZ better than 2.4GHZ
+how to convert digital signal into analog signal
+why does infinite band width needed to convert digital signal into analgo signal
