@@ -1,0 +1,36 @@
+diffeerence betweeen cache and buffer
+속도가 다른 두 저장장치 사이에서 완충작용을 하는 것이 버퍼 
+데이터를 읽어들이는 속도가 느리거나 불규칙적인 소스(네트워크, HDD)로부터,  버퍼링을 해놓고  규칙적인 속도로 데이터를 받아서 쓰는 것이다. 
+
+
+
+why 64bit is better than 32bit
+더 많은 데이터를 한 번에 처리할 수 있다. 
+32bit cpu는 최대 4GB의 메모리 주소밖에 갖지 못한다(2^32= 4,294,967,296)
+2009년에 최초로 64Bit OS가 출시됨.  
+https://www.digitaltrends.com/computing/32-bit-vs-64-bit-operating-systems/
+
+
+
+why allaising is difficult 
+alliasing은 같은 메모리 주소를 서로 다른 identifier로 접근할 수 있는 성질을 말한다. 
+https://en.wikipedia.org/wiki/Aliasing_(computing)
+
+
+
+why does BANDWIDTH affect DATA TRANSFER RATE
+https://www.quora.com/How-does-available-bandwidth-affect-the-rate-at-which-data-can-be-transferred
+
+
+
+Does Higher Frequency have more data transfer rate?
+
+
+
+대역폭 지연 곱 
+https://linkmemo.tistory.com/28
+
+
+
+fork() source code 
+https://code.woboq.org/linux/linux/kernel/fork.c.html
