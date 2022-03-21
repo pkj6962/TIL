@@ -1,0 +1,62 @@
+[TIL]
+
+Using C++ and WSL in VS Code 
+우분투에서 sudo apt-get install build-essential gdb
+명령어로 gdb를 설치하고 tasks.json과 launch.json 파일을 정비하니 빌드와 컴파일이 잘됐다. 
+
+https://code.visualstudio.com/docs/cpp/config-wsl
+
+
+https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean
+
+
+Difference between build and compile 
+컴파일은 빌드의 한 단계. 빌드는 전처리, 컴파일, 링크 등을 포함 
+Cirl Shift B 로 빌드(컴파일 포함)를 하고, Cirl 5 로 Run(execute)을 한다. Cirl 5로 compile을 하는 것이 아님. 
+
+
+
+what does '&' at the end of a linux command mean?
+리눅스 커맨드 맨 끝에 &를 붙이면 백그라운드에서 프로세스가 실행된다. 
+
+https://www.quora.com/Whats-the-difference-between-compiling-and-building
+
+
+
+Difference between Overloading and Overriding
+
+
+
+
+[성찰]
+
+-취미를 개발로 하여야 합니다. 항상 컴퓨터공학과 개발로 머리를 가득 채우면, 즉 개발 쪽으로 스위치를 늘 켜놓으면,
+성공은 자연스럽게 따라옵니다. 
+
+- 관심사를 먼저 어필하라는 선배의 조언이 와닿았습니다. 제가 자연어처리라는 관심사를 어필하니 똑같이 관심있는 학우분이 제게 DM을 주셨습니다. 
+
+- 그분은 제게 프로젝트를 하나 진행해보면 어떻겠느냐고 제안해주셨습니다. 
+나보다 잘하는 사람들로 가득찬 곳이 제 준거집단이 되면 이런 점이 좋습니다. 내가 두려워하는 것들을 자연스럽게 하는 사람들을 따라 두려움을 가지고 도전하게 됩니다.
+처음에는 가랑이가 찢어질 듯 벅차하며 그들을 따라갑니다. 
+그 곳에 속하지 않았다면 도전도 하지 않았을 도전을 하게 된다는 것. 
+
+- 디스코드 동아리방에 자주 얼굴을 보이고 상주해 있기로 했습니다. 새로운 기회로 연결될 가능성을 넓혀주니 감사합니다.  "혹시 무엇에 관해 이야기 나누시는지 여쭤봐도 될까요?"
+
+- 붙는다 생각하면 붙을 것이고, 떨어진다 생각하면 떨어질 것이다. 
+
+- 네트워크 + 데이터베이스 + 시스템프로그래밍 + 프로그래밍언어 + 컴퓨터아키텍쳐 + 구술문학론 조합. 시프를 제외하고는 어느정도 다 할만한 조합이다. 
+
+- He can do, she can do, why not me? 
+
+
+- 결국 필요한 지식이라는 마인드로 한 번 공부할 때 머릿속에 꾹 집어 넣는다는 마음으로 공부했습니다. 
+
+
+
+-  30 중반 되고 더 와닿는 것들
+1. 건강
+2. 언제든 부르면 부담 없이 나와주고 정말 모든 걸 터 놓을 수 있는 친구 2-3명 정도
+3. 있을 때 그저 같이 행복해지는 배우자
+4. 최소한 남들에게 뒷 얘기 정도는 안 나오게 할 수 있는 깔끔한 이미지
+5. 남들에게 휘둘리지 않고 꿋꿋이 스트레스 안 받을 수 있는 성격
+6. 가족의 건강
