@@ -1,0 +1,39 @@
+What is File Descriptor
+File descriptor 는 open된 파일에 부여된 고유한 번호이다. 리눅스에서 모든 객체는 파일로 정의된다. stdin, stdout, stderr의 fd는 각각 0,1,2이다.
+https://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms
+
+Creating a Pipe 
+Pipe(int pipfd[2]) 함수를 이용해서 파이프를 생성할 수 있다. pipfd[0]과 pip[1]에 각각 출력과 입력 end FD가 부여된다.
+https://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms
+Pipe SystemCall: https://linuxhint.com/pipe_system_call_c/
+
+How ls works
+ls 안에서 opendir, readdir, closedir systemcall이 호출된다.
+https://www.google.com/search?q=how+ls+works+in+linux&oq=how+ls+works+in+linux&aqs=chrome..69i57.6851j0j7&sourceid=chrome&ie=UTF-8
+
+opendir() in C 
+https://pubs.opengroup.org/onlinepubs/009604599/functions/opendir.html
+
+struct dirent
+https://sosal.kr/114
+
+type DIR
+
+To iterate through the entries in a directory, 
+you need to call readdir, passing it a DIR * that was returned from opendir. This will return a dirent * from which you can read the name of the directory entry.
+The function will return NULL when all entries have been read.
+
+s Python a truly strongly typed or a typeless language?
+변수에는 타입이 없다. 값(value)에는 타입이 있다. 
+https://www.quora.com/Is-Python-a-truly-strongly-typed-or-a-typeless-language
+
+_________________________________________________
+
+feof함수 
+지난(마지막) File read가 실패했을 때 True를 반환하는 함수 
+feof와 eof의 차이 
+https://me.tistory.com/380
+https://it-qa.com/what-does-feof-do-in-c/#What_does_FEOF_do_in_C
+https://stackoverflow.com/questions/5431941/why-is-while-feof-file-always-wrong?rq=1
+
+how can I make Chrome Extension 
