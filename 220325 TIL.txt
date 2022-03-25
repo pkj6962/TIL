@@ -1,0 +1,13 @@
+How does a process come to know that it has received a signal
+
+Can a process get a signal when it is actually executing on the CPU ? 
+If so, how is it possible i.e how the process comes to know that a signal is pending for it
+
+what is environment variable
+환경변수는 결국 변수. 선언하고 할당해서 써먹는. 
+환경변수에는 PATH 도 있음. default로 할당된 값이있는데, 이로써 어떤 프로그램이 어디있는지를 찾아냄. 
+이를 내 입맛에 맞게 바꿀 수도 있는 것. 
+
+https://linux.die.net/man/3/execvpe
+
+ 
