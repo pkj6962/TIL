@@ -1,0 +1,25 @@
+dup2(oldfd, newfd)
+
+newfd가 가리키는 file descriptor를 oldfd가 가리키는 파일로 리다리렉트 시켜준다.
+
+fd = open("new_file", arg2, arg3); 
+dup2(fd, STDOUT_FILENO);
+
+위와 같은 코드를 통해 표준출력을 통해 출력된 메시지가 new_file로 리다이렉트된다.
+
+
+dup2(fd, 1) 보다 다음과 같음 코드가 더 선호된다.
+
+close(1)
+dup(fd);
+
+UNIX에서 복사되어지는 새로운 FILE descriptor는 항상 마지막에 닫힌 FD이다. 
+
+
+
+
+왜 내 dup2 함수가 STDOUT을 redirect 하지 않을까
+parenthesis의 문제였다. 
+https://stackoverflow.com/questions/22120661/dup-does-not-redirect
+
+
