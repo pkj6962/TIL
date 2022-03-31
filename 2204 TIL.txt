@@ -1,0 +1,37 @@
+유닉스 명령어
+
+[Kill은 process를 죽이기만 하는가?]
+
+- 처음에는 그랬을 것이다. 그러나 시그널의 종류가 많아지면서 default action이 terminate
+가 아닌 시그널도 생겼을 것이다. 따라서 Kill command은 send_signal 정도로 이해하는 것이 맞는다.
+
+- 시그널 종류를 명시하지 않고 kill 명령어만 호출할 경우 default action이 terminate이다.
+
+
+- bash command로서도 kill이 존재한다.
+kill -INT 123
+kill signum pid
+
+Signal number 9: SIGKILL
+Signal number 20: SIGSTP 
+
+- 시그널 핸들러의 기본 action
+1. TERM
+2. IGN
+3. CORE
+4. STOP
+5. CONT
+
+
+[왜 kill -9 를 쓰면 안 되는가?]
+
+kill -9 은 SIGKILL 신호를 프로세스에게 보낸다. 이는 시그널 핸들러도 action을 통제할 수 없는 신호이다.
+제대로 된 프로그램이라면 프로그램 종료 시그널을 받으면 cleanup(사용했던 리소스를 저장)함수를 작성하고 이를 시그널 핸들러로 등록한다.
+kill -9은 그러한 핸들러를 무력하게 만드므로 SIGKILL 보다 SIGTERM 또는 SIGINT 와 같은 종료 시그널이 더 낫다. 
+
+
+[프로세스 그룹 내 전체 프로세스를 죽이는 법]
+프로세스 그룹ID 의 negation을 kill의 argument로 전달한다.
+eg) kill -TERM -5113
+
+https://www.lesstif.com/system-admin/unix-linux-kill-12943674.html
