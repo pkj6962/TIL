@@ -67,7 +67,7 @@ master 담당자가 merge하고 confirm 한다.
 
 # C/C++
 
-### Difference between void and void
+####  Difference between void and void
 
 void\* 반환형 함수는 return NULL이 맞는 문법이지만, void 반환형 함수는 그 경우 warning message를 내보낸다.
 
@@ -87,6 +87,17 @@ void* thread(void *vargp){
 
     char* strchr(char *string, char key)
     string에서 원하는 문자의 위치를 찾아 포인터로 반환한다.
+
+#
+
+#### execve(char*, char* argv, int option)
+
+두 번째 인자인 argv의 마지막 원소는 NULL이어야 한다. 그렇지 않으면 ```bad address``` 오류를 반환한다.  
+
+
+#
+#
+
 
 # Etc
 
